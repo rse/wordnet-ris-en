@@ -50,6 +50,16 @@ Usage
 
 ```
 OMW Princeton WordNet 3.1 (2011-05-26) [MIT-style]
+{ pos: 'n',
+  syn:
+   [ 'loudspeaker',
+     'loudspeaker system',
+     'speaker system',
+     'speaker unit',
+     'talker',
+     'utterer',
+     'verbaliser',
+     'verbalizer' ] }
 ```
 
 License
