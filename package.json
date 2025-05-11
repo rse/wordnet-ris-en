@@ -1,34 +1,32 @@
 {
-    "name":        "wordnet-ris-en",
-    "version":     "0.9.7",
-    "description": "WordNet Reduced Information Set (RIS): English (EN)",
-    "keywords":    [ "wordnet", "reduced", "information", "set", "en", "english" ],
-    "main":        "wordnet-ris-en.js",
-    "repository": {
-        "type": "git",
-        "url":  "https://github.com/rse/wordnet-ris-en.git"
-    },
+    "name":                        "wordnet-ris-en",
+    "version":                     "0.9.7",
+    "description":                 "WordNet Reduced Information Set (RIS): English (EN)",
+    "keywords":                    [ "wordnet", "reduced", "information", "set", "en", "english" ],
+    "main":                        "wordnet-ris-en.js",
+    "types":                       "wordnet-ris-en.d.ts",
+    "repository":                  { "type": "git", "url": "git+https://github.com/rse/wordnet-ris-en.git" },
     "author": {
-        "name":  "Dr. Ralf S. Engelschall",
-        "email": "rse@engelschall.com",
-        "url":   "http://engelschall.com"
+        "name":                    "Dr. Ralf S. Engelschall",
+        "email":                   "rse@engelschall.com",
+        "url":                     "http://engelschall.com"
     },
-    "license":  "MIT",
-    "homepage": "https://github.com/rse/wordnet-ris-en",
-    "bugs":     "https://github.com/rse/wordnet-ris-en/issues",
+    "license":                     "MIT",
+    "homepage":                    "https://github.com/rse/wordnet-ris-en",
+    "bugs":                        "https://github.com/rse/wordnet-ris-en/issues",
     "devDependencies": {
     },
     "dependencies": {
-        "wordnet-ris":             "0.9.9",
-        "wordnet-lmf-en":          "0.9.8"
+        "wordnet-ris":             "0.9.11",
+        "wordnet-lmf-en":          "0.9.10"
     },
     "peerDependencies": {
-        "wordnet-ris":             "0.9.9"
+        "wordnet-ris":             "0.9.11"
     },
     "engines": {
-        "node":                    ">=8.0.0"
+        "node":                    ">=18.0.0"
     },
     "scripts": {
-        "install": "wordnet-ris -d wordnet-ris-en.db import @wordnet-lmf-en/wordnet-lmf-en.db"
+        "install":                 "wordnet-ris -d wordnet-ris-en.db import @wordnet-lmf-en/wordnet-lmf-en.db"
     }
 }
