@@ -18,7 +18,7 @@
     },
     "dependencies": {
         "wordnet-ris":             "0.9.12",
-        "wordnet-lmf-en":          "0.9.11"
+        "wordnet-lmf-en":          "0.9.12"
     },
     "peerDependencies": {
         "wordnet-ris":             "0.9.12"
